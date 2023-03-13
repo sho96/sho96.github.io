@@ -1,0 +1,38 @@
+html{
+    font-family: Arial;
+}
+body{
+    margin: 0px;
+}
+h3, p{
+    margin: 0px;
+}
+.main{
+    width: 300px;
+}
+input{
+    margin: 5px;
+}
+.content{
+    padding: 10px;
+    background-color: rgb(255, 231, 186);
+    height: 200px;
+}
+.bar{
+    text-align: center;
+    background-color: orange;
+}
+button{
+    border: 0px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    transition: background-color 0.15s;
+}
+button:hover{
+    background-color: rgb(164, 243, 46);
+}
+.result{
+    margin: 5px;
+}
