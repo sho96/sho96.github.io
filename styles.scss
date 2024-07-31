@@ -1,0 +1,117 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+
+}
+
+#header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--background-color-bright);
+
+    h1{
+        color: var(--text-color);
+        font-size: 4rem;
+        font-weight: 600;
+    }
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    width: 100vw;
+
+    max-width: 1000px;
+    border-left: 1px solid var(--background-color-bright);
+    border-right: 1px solid var(--background-color-bright);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    font-weight: 400;
+
+
+    .section-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            color: var(--text-color);
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+    }
+
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-bottom-bar{
+        height: 1px;
+        width: 90%;
+        background-color: var(--background-color-bright);
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    div[name="project-big"]{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        border-radius: 10px;
+        border: 1px solid var(--background-color-bright);
+
+        h4{
+            color: var(--text-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+
+            transition: all 0.2s ease-in-out;
+        }
+
+        transition: all 0.2s ease-in-out;
+    }
+    div[name="project-big"]:hover{
+        border: 1px solid var(--accent-color);
+
+        h4{
+            color: var(--accent-color);
+        }
+    }
+}

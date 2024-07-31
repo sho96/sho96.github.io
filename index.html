@@ -1,21 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Random Things</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <section class="main">
-            <div class="bar">
-                <h3>Random Number Generator</h3>
-            </div>
-            <div class="content">
-                <input type="number" class="min" placeholder="min">
-                <input type="number" class="max" placeholder="max">
-                <button onclick="generateRandomNumber();">Generate</button>
-                <p class="result">press Generate to start</p>
-            </div>
-        </section>
-        <script src="script.js"></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Hello!!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>About Me</h1>
+        </div>
+
+        <div id="content">
+            <section class="section">
+                <div class="section-header">
+                    <h2>Projects I've worked on</h2>
+                </div>
+
+                <div class="section-content" id="projects">
+                    <div name="project-big">
+                        <h4>World Without Traffic Accidents</h4>
+                        <p>
+                            This project allows all vehicles like cars and bikes to be connected to the internet, 
+                            allowing warning sounds to be played when they are to run into each other before they crash.
+                            This was the first time I worked with Javascript, HTML, and CSS. I don't think the codes were that bad
+                            considering that it was the first time.
+                        </p>
+                    </div>
+                    <div name="project-big">
+                        <h4>School Fest Management System</h4>
+                        <p>
+                            This project was one of the biggest projects i've ever worked on, and this was for the school fest that my highschool had.
+                            The system included counting number of visits, and also a mystery solving game for all the participants.
+                            I've learned a lot about web development and its security, and how to use databases like PostgreSQL.
+                            This was also the first time my webapp was used by over 7000 people. (7526 to be exact)
+                        </p>
+                    </div>
+                    <div name="project-big">
+                        <h4>Delta Programming Language</h4>
+                        <p>
+                            This is one of the projects that i'm currently working on, and it's a compiler that converts python code into C++.
+                            This is done by tracking the datatype of each variable in the python code, and applying it to the generated C++ code.
+                            It is really fun to work on this project.
+                        </p>
+                    </div>
+                    <div name="project-big">
+                        <h4>Version Control System</h4>
+                        <p>
+                            I've worked on this project for about 3 years, since I was in middle school when I first learned about socket programming.
+                            I got so interested in it and I made a version control system (though much more like file sharing).
+                            This project was purely written in Python.
+                        </p>
+                    </div>
+
+                </div>
+                <span class="section-bottom-bar"></span>
+            </section>
+            <section class="section">
+                <div class="section-header">
+                    <h2>More to be added</h2>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p><a href="https://github.com/sho96" target="_blank">Made by sho96 on Github</a></p>
+        </footer>
+    </div>
+</body>
 </html>
